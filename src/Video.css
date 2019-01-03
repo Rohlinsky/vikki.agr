@@ -1,0 +1,24 @@
+.Video {
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    text-align: center;
+}
+.frame {
+    width: 840px;
+    height: 640px;
+}
+.Video iframe {
+    margin-top: 150px; 
+}
+.Video .x {
+    top: 120px;
+    right: -145px;
+}
+.Video .frame {
+	margin: 150px auto;
+}

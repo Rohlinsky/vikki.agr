@@ -1,0 +1,229 @@
+.App {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+}
+.App .frame {
+    padding-top: 180px;
+    border-radius: 500px;
+    background: #f78b00;
+    margin: 175px auto;
+}
+.App .Question h2 {
+    font-size: 3.5em;
+    font-size: 50px;
+    width: 85%;
+    margin: 0 auto;
+    color: #fff;
+    /* font-weight: 800; */
+    font-weight: 100;
+}
+.App .Question h2.extra-space-1 {
+    margin-bottom: 68px!important;
+}
+.App .Question h2.extra-space-2 {
+    margin-bottom: 110px!important;
+}
+.App .Question h2.extra-space-3 {
+    margin-bottom: 26px!important;
+}
+.App .Question h2.extra-space-4 {
+    margin-bottom: -42px;
+}
+.App .Answer {
+    text-align: left;
+}
+.App .Answer .form.num {
+    text-align: center;
+    padding: 85px 90px;
+}
+.Answer .variants {
+    list-style: none;
+    padding: 60px 80px;
+    text-align: center;
+}
+.Answer .variants .variant-frame div.variant,
+.App .share, .Answer form select#gender,
+.Answer form input {
+    height: 50px;
+    border-radius: 50px;
+    font-size: 34px;
+    /* font-weight: 700; */
+    background: #fef3e5;
+    font-size: 2em;
+    cursor: pointer;
+    padding: 25px;
+    padding-bottom: 12px;
+    color: #554a44;
+    border: none;
+    text-align: center;
+}
+.App .share {
+    width: 230px;
+/*
+    background-image: url('images/share-circle.png');
+    background-position: 212px center;
+    background-size: 18%;
+    background-repeat: no-repeat;
+*/
+}
+.App .share span.inner-share {
+    position: relative;
+}
+.App .share span.inner-share.text {
+    top: -10px;
+    right: -22px;
+}
+.App .share span.inner-share.img {
+    right: -54px;
+}
+.App .share span.inner-share.img img {
+    width: 40px;
+}
+.App div.result a {
+    text-decoration: none;
+}
+.Answer .variants .variant-frame div.variant {
+    width: calc(100% - 50px);
+}
+.Answer form select#gender {
+    width: 100%;
+}
+.Answer form input {
+    width: calc(100% - 100px);
+}
+.Answer form input.age.timeTogether {
+    width: 150px!important;
+    position: relative;
+    left: -25px;
+    z-index: 1;
+    -moz-appearance:textfield;
+    border-radius: 50px 0 0 50px;
+}
+input.age.timeTogether::-webkit-inner-spin-button, 
+input.age.timeTogether::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
+}
+input.timeTogether:hover,
+input.timeTogether:focus {
+    -moz-appearance: number-input;
+}
+.Answer .variants .variant-frame {
+    width: 250px;
+}
+.Answer .variant-frame {
+    width: 250px;
+}
+.Answer form {
+    margin: 0 auto;
+}
+.Answer form select#gender {
+    text-align: center;
+    padding: 0 25px;
+    height: 90px;
+    display: block;
+    border: none;
+    margin: 50px auto;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+}
+.Answer form select#gender::-ms-expand {
+    display: none!important;
+}
+.Answer form .btn {
+    position: relative;
+    left: 50px;
+    top: -87px;
+    text-align: right;
+    padding: 32px 14px 29px 0;
+    height: 87px;
+    font-size: 2em;
+    border: 1px solid #000;
+    color: #fff;
+    font-weight: 800;
+    font-family: inherit;
+    line-height: 4px;
+    background-color: #f78b00;
+    z-index: 0;
+}
+.Answer form input.btn:hover {
+    background: #f78b00!important;
+}
+.Answer form select#gender:hover,
+.App div.share:hover, .Answer form input:hover,
+.variant-frame > div.variant:hover {
+  background: #fcd3a1!important; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fcd3a1 0%, #fef3e5 100%)!important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #fcd3a1 0%,#fef3e5 100%)!important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #fcd3a1 0%,#fef3e5 100%)!important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcd3a1', endColorstr='#fef3e5',GradientType=0 )!important; /* IE6-9 */
+}
+.Answer .variants > .variant-frame:first-child {
+    float: left;
+    margin-left: 25px;
+}
+.Answer .variants > .variant-frame:nth-child(2) {
+    float: right;
+    margin-right: 25px;
+}
+.Answer .variants > .variant-frame:last-child {
+    margin: 0 auto;
+    position: relative;
+    bottom: -45px;
+    clear: both;
+}
+
+.rest {
+    border: 5px solid #00ff03;
+    margin: 25px;
+    padding: 25px;
+}
+div.result {
+    color: #fff;
+}
+div.result h1 {
+    font-size: 14em;
+    line-height: 0;
+    font-weight: 100;
+}
+div.result h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3em;
+    font-weight: 100;
+}
+.subframe {
+    width: 800px;
+    height: 250px;
+    margin: 0 auto;
+    position: relative;
+    top: -292px;
+    background-position: center 35px !important;
+    background-repeat: no-repeat !important;
+}
+.subframe.frame-0 {
+    background: url('images/step-1.png')
+}
+.subframe.frame-1 {
+    background: url('images/step-2.png')
+}
+.subframe.frame-2 {
+    background: url('images/step-3.png')
+}
+.subframe.frame-3 {
+    background: url('images/step-4.png')
+}
+.subframe.frame-4 {
+    background: url('images/step-5.png')
+}
+.subframe.frame-5 {
+    background: url('images/step-6.png')
+}
+.App .x {
+    top: -172px;
+}

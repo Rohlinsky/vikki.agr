@@ -1,0 +1,98 @@
+@media screen and (min-width: 1900px) {
+    body {
+        background-size: 100%!important;
+    }
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+	/* background: url("images/bg.jpg"); */
+	background-position: center 0;
+}
+.Site {
+	width: 100%;
+	text-align: center;
+}
+
+.logo {
+
+}
+.frame {
+    width: 840px;
+    height: 640px;
+}
+.site-header {
+	width: calc(100% - 100px);
+	height: 80px;
+    box-shadow: 5px 5px 45px;
+	position: fixed;
+	top: 0;
+	background-color: #26211e;
+    background-color: rgba(38, 33, 30, 0.84);
+	padding: 25px 55px;
+	z-index: 9999;
+}
+.site-header img.App-logo {
+    float: left;
+}
+
+.site-header nav.navigation {
+    /* width: 495px; */
+    /* height: 50px; */
+    float: right;
+}
+
+.site-header nav.navigation .click {
+	width: 71px;
+	height: 71px;
+	float: left;
+	margin-right: 55px!important;
+	background-size: 100%!important;
+    background-position: center!important;
+	background-repeat: no-repeat!important;
+	cursor: pointer;
+}
+.site-header nav.navigation a:nth-child(3) .click,
+.site-header nav.navigation a:nth-child(4) .click {
+	width: 45px;
+}
+.site-header nav.navigation a:last-child .click {
+	margin-right: 0!important;
+}
+.site-header nav.navigation .click#to-app {
+	background: url("images/ico-app.png");
+}
+.site-header nav.navigation .click#to-app:hover {
+	background: url("images/ico-app-hover.png");
+}
+.site-header nav.navigation .click#to-video {
+	background: url("images/ico-play.png");
+}
+.site-header nav.navigation .click#to-video:hover {
+	background: url("images/ico-play-hover.png");
+}
+.site-header nav.navigation .click#to-share {
+	background: url("images/ico-share.png");
+}
+.site-header nav.navigation .click#to-share:hover {
+	background: url("images/ico-share-hover.png");
+}
+.site-header nav.navigation .click#to-menu {
+	background: url("images/ico-menu.png");
+}
+.site-header nav.navigation .click#to-menu:hover {
+	background: url("images/ico-menu-hover.png");
+}
+.x {
+    width: 25px;
+    height: 25px;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    background: url('images/x-close.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
